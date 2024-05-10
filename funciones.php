@@ -1,6 +1,8 @@
 <?Php 
 $nombre ;
 $Apellido;
+$nombres = array("ana","juan","camila");
+$nombres1 = "ana";
 
 
 
@@ -23,5 +25,7 @@ function sumarNumeros($numeros){
 }
 $numeros = array(1,2,3,4,5,6);
 sumarNumeros($numeros);
+var_dump(is_array($nombres));
+var_dump($nombres1);
 
 ?>
